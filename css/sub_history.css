@@ -1,0 +1,596 @@
+@charset "utf-8";
+
+.section {overflow-x: hidden; border-bottom: 1px solid #999; /* background: rgba(0,0,0,0.5); */}
+.section img{width: 100%; height: 100%; object-fit: cover;}
+.sec1{position: relative; background: url(../images/sub/history_bg.png) no-repeat center; background-size: cover; }
+
+.sec1 .line{width: 1px; height: 100%; background: #999; position: absolute; /* left: 313px;  */left: 25.2%; top: 0 !important;}
+
+
+
+
+
+.sec1 .me_txt{position: absolute;top: 40%; left: 50%; text-align: center;  transform: translate(-50%, -50%); }
+.sec1 .me_txt h2{font-size: 4rem; font-weight: 700}
+.sec1 .me_txt h3{ font-size: 15rem; line-height: 1.1;}
+.sec1 .me_txt p{font-size: 4rem;}
+
+#fp-nav {z-index: 10;}
+
+#fp-nav ul li{padding: 50px 0;}
+.sec1 .line{width: 1px; height: 100%; background: #999; position: absolute; /* left: 313px;  */left: 25.2%; top: 0 !important;  }
+#fp-nav.fp-left  { left: 24.5% !important; }/* width:300px */
+#fp-nav ul li .fp-tooltip.fp-left{left: 20px; top: 42px;}
+
+
+#fp-nav ul li .active > div {font-size: 3rem !important;}
+#fp-nav ul li:last-child {opacity: 0;}
+
+
+@media(max-width:1500px){
+    .sec1 .line{width: 1px; height: 100%; background: #999; position: absolute; /* left: 313px;  */left: 20.2%; top: 0 !important;}
+    #fp-nav.fp-left{ left: 19% !important; }/* width:300px */
+   
+}
+
+@media(max-width:768px){
+    .sec1 .me_txt h2{font-size: 3rem; font-weight: 700}
+.sec1 .me_txt h3{ font-size: 10rem; line-height: 1.1;}
+.sec1 .me_txt p{font-size: 2rem;}
+.sec1 .line{display: none;}
+#fp-nav.fp-left{ display: none; }/* width:300px */
+
+    
+   
+}
+
+@media(max-width:360px){
+    .sec1 .me_txt h2{font-size: 2rem; font-weight: 700}
+.sec1 .me_txt h3{ font-size: 7rem; line-height: 1.1;}
+.sec1 .me_txt p{font-size: 1rem;}
+
+    
+   
+}
+
+
+
+
+
+
+
+/* sec1 */
+
+
+.sec2{position: relative; height: 100%;  }
+.sec2_left {/* width: 1100px; */width: 50%; display: flex;}
+.sec2 .line{width: 1px; height: 100%; background: #999; position: absolute; left:25.2%; top: 0 !important; }
+
+
+
+.sec2 .me_txt{position: absolute; top: 10%; left: 30%;  }
+.sec2 .me_txt h2{font-size: 4rem; font-weight: 700}
+.sec2 .me_txt h3{ font-size: 10rem; line-height: 1.1;}
+.sec2 .me_txt p{font-size: 4rem; padding-bottom: 50px;}
+.sec2 .me_txt > span {font-size: 1.9rem; line-height: 1.7; }
+
+
+.sec2 .sec2_right{width: calc(100% - 1100px); position: absolute ; top: 15%; left: 55%;}
+.sec2 .sec2_right .box{ width: 100%; ;
+    position: absolute ; top: 200px; left: 0;}
+    .sec2 .sec2_right .box img { width: 100%; object-fit: cover;}
+
+
+
+    @media(max-width:1800px){
+        .sec2 .me_txt h2{font-size: 3rem; font-weight: 700}
+.sec2 .me_txt h3{ font-size: 8rem; line-height: 1.1;}
+.sec2 .me_txt p{font-size: 3rem; padding-bottom: 50px;}
+.sec2 .me_txt > span {font-size: 1.5rem; line-height: 1.7; }
+
+       
+    }
+
+    @media(max-width:1600px){
+        .sec2 .me_txt h2{font-size: 3rem; font-weight: 700}
+.sec2 .me_txt h3{ font-size: 8rem; line-height: 1.1;}
+.sec2 .me_txt p{font-size: 3rem; padding-bottom: 50px;}
+.sec2 .sec2_right .box img { width: 130%; object-fit: cover;}
+.sec2 .sec2_right .box{ width: 100%;;
+    position: absolute ; top: 180px; left: 10%;}
+
+    }
+
+    @media(max-width:1500px){
+        .sec2 .me_txt h2{font-size: 3rem; font-weight: 700}
+.sec2 .me_txt h3{ font-size: 6rem; line-height: 1.1;}
+.sec2 .me_txt p{font-size: 2rem; padding-bottom: 50px;}
+.sec2 .sec2_right .box img { width: 130%; object-fit: cover;}
+
+    }
+
+    @media(max-width:1400px){
+        .sec2 .me_txt h2{font-size: 2rem; font-weight: 700}
+.sec2 .me_txt h3{ font-size: 4rem; line-height: 1.1;}
+.sec2 .me_txt p{font-size: 2rem; padding-bottom: 50px;}
+.sec2 .me_txt > span {font-size: 1.3rem; line-height: 1.7;}
+.sec2 .sec2_right .box{ width:50%; position: absolute ; top: 120px; left: 10%;}
+.sec2 .sec2_right .box img { width: 500px; object-fit: cover;}
+
+    }
+
+    @media(max-width:1300px){
+        .sec2 .me_txt{position: absolute; top: 10%; left: 32%; }
+        .sec2 .me_txt h2{font-size: 4rem; font-weight: 700}
+        .sec2 .me_txt h3{ font-size: 8rem; line-height: 1.1;}
+        .sec2 .me_txt p{font-size: 2rem; padding-bottom: 50px;}
+        .sec2 .me_txt > span {font-size: 1.5rem; line-height: 1.7; }
+        .sec2 .sec2_right .box img { width: 100%; object-fit: cover; }
+        .sec2 .sec2_right{width: 50%; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
+        .sec2 .sec2_right .box{ width: 100%; 
+            position: absolute ; top: 150px; left: 14%; text-align: center;}
+
+    }
+
+  
+
+    @media(max-width:1100px){
+
+        .sec2 .me_txt{position: absolute; top: 10%; left: 33%;}
+        .sec2 .me_txt h2{font-size: 4rem; font-weight: 700}
+        .sec2 .me_txt h3{ font-size: 8rem; line-height: 1.1;}
+        .sec2 .me_txt p{font-size: 2rem; padding-bottom: 50px;}
+        .sec2 .me_txt > span {font-size: 1.4rem; line-height: 1.7; }
+        .sec2 .sec2_right .box img { width: 100%; object-fit: cover; }
+        .sec2 .sec2_right{width: 50%; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
+        .sec2 .sec2_right .box{ width: 100%; 
+            position: absolute ; top: 150px; left: 15%; text-align: center;}
+
+    }
+
+    
+
+    @media(max-width:800px){
+
+        .sec2 .sec2_right .box{ width: 100%; 
+            position: absolute ; top: 150px; left: 15%; text-align: center;}
+
+    }
+
+    @media(max-width:768px){
+        .sec2 .me_txt > span {font-size: 1.3rem; line-height: 1.7; }
+        .sec2 .sec2_right .box{ width: 100%; 
+            position: absolute ; top: 150px; left: 15%; text-align: center;}
+          
+    }
+
+    @media(max-width:690px){
+        .sec2 .me_txt > span {font-size: 1.3rem; line-height: 1.7; }
+        .sec2 .sec2_right .box{ width: 100%; 
+            position: absolute ; top: 130px; left: 15%; text-align: center;}
+
+    }
+
+    @media(max-width:500px){
+        .sec2 .me_txt{position: absolute; top: 10%; left: 33%;}
+        .sec2 .me_txt h2{font-size: 2rem; font-weight: 700}
+        .sec2 .me_txt h3{ font-size: 5rem; line-height: 1.1;}
+        .sec2 .me_txt p{font-size: 1rem; padding-bottom: 20px;}
+      
+        .sec2 .me_txt > span {font-size: 1.3rem; line-height: 1.7; }
+        .sec2 .sec2_right .box{ width: 100%; height: 100px; 
+        position: absolute ; top:150px; left: 15%;}
+
+    }
+
+
+
+
+
+
+/* sec2 */
+
+
+
+
+.sec3{position: relative; height: 100%;}
+.sec3_left {width: 30%; display: flex;}
+.sec3 .line{width: 1px; height: 100%; background: #999; position: absolute; left:25.2%; top: 0 !important;  }
+
+
+.sec3 .me_txt{position: absolute; top: 10%; left: 30%;}
+.sec3 .me_txt h2{font-size: 4rem; font-weight: 700}
+.sec3 .me_txt h3{ font-size: 10rem; line-height: 1.1;}
+.sec3 .me_txt p{font-size: 4rem; padding-bottom: 50px;}
+.sec3 .me_txt > span {font-size: 2rem; line-height: 1.9; }
+
+
+.sec3 .sec3_right{width: calc(100% - 1100px); position: absolute ; top: 15%; left: 55%;}
+.sec3 .sec3_right .box{width: 100%; position: absolute ; top: 100px; left: 0;  }
+
+    @media(max-width:1800px){
+        .sec3 .me_txt h2{font-size: 3rem; font-weight: 700}
+.sec3 .me_txt h3{ font-size: 8rem; line-height: 1.1;}
+.sec3 .me_txt p{font-size: 3rem; padding-bottom: 50px;}
+.sec3 .me_txt > span {font-size: 1.5rem; line-height: 1.7; }
+
+       
+    }
+
+    @media(max-width:1600px){
+        .sec3 .me_txt h2{font-size: 3rem; font-weight: 700}
+.sec3 .me_txt h3{ font-size: 8rem; line-height: 1.1;}
+.sec3 .me_txt p{font-size: 3rem; padding-bottom: 50px;}
+.sec3 .sec3_right .box img { width: 130%; object-fit: cover;}
+.sec3 .sec3_right .box{ width: 100%;;
+    position: absolute ; top: 180px; left: 10%;}
+
+    }
+
+    @media(max-width:1500px){
+        .sec3 .me_txt h2{font-size: 3rem; font-weight: 700}
+.sec3 .me_txt h3{ font-size: 6rem; line-height: 1.1;}
+.sec3 .me_txt p{font-size: 2rem; padding-bottom: 50px;}
+.sec3 .sec3_right .box img { width: 130%; object-fit: cover;}
+
+    }
+
+    @media(max-width:1400px){
+        .sec3 .me_txt h2{font-size: 2rem; font-weight: 700}
+.sec3 .me_txt h3{ font-size: 4rem; line-height: 1.1;}
+.sec3 .me_txt p{font-size: 2rem; padding-bottom: 50px;}
+.sec3 .me_txt > span {font-size: 1.3rem; line-height: 1.7;}
+.sec3 .sec3_right .box{ width:50%;
+    position: absolute ; top: 120px; left: 10%;}
+.sec3 .sec3_right .box img { width: 500px; object-fit: cover;}
+
+    }
+
+    @media(max-width:1300px){
+        .sec3 .me_txt{position: absolute; top: 10%; left: 32%; }
+        .sec3 .me_txt h2{font-size: 4rem; font-weight: 700}
+        .sec3 .me_txt h3{ font-size: 8rem; line-height: 1.1;}
+        .sec3 .me_txt p{font-size: 2rem; padding-bottom: 50px;}
+        .sec3 .me_txt > span {font-size: 1.5rem; line-height: 1.7; }
+        .sec3 .sec3_right .box img { width: 100%; object-fit: cover; }
+        .sec3 .sec3_right{width: 50%; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
+        .sec3 .sec3_right .box{ width: 100%; 
+            position: absolute ; top: 150px; left: 14%; text-align: center;}
+
+    }
+
+  
+
+    @media(max-width:1100px){
+
+        .sec3 .me_txt{position: absolute; top: 10%; left: 33%;}
+        .sec3 .me_txt h2{font-size: 4rem; font-weight: 700}
+        .sec3 .me_txt h3{ font-size: 8rem; line-height: 1.1;}
+        .sec3 .me_txt p{font-size: 2rem; padding-bottom: 50px;}
+        .sec3 .me_txt > span {font-size: 1.4rem; line-height: 1.7; }
+        .sec3 .sec3_right .box img { width: 100%; object-fit: cover; }
+        .sec3 .sec3_right{width: 50%; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
+        .sec3 .sec3_right .box{ width: 100%; 
+            position: absolute ; top: 150px; left: 15%; text-align: center;}
+
+    }
+
+    
+
+    @media(max-width:800px){
+
+        .sec3 .sec3_right .box{ width: 100%; 
+            position: absolute ; top: 150px; left: 15%; text-align: center;}
+
+    }
+
+    @media(max-width:768px){
+        .sec3 .me_txt > span {font-size: 1.3rem; line-height: 1.7; }
+        .sec3 .sec3_right .box{ width: 100%; 
+            position: absolute ; top: 150px; left: 15%; text-align: center;}
+          
+    }
+
+    @media(max-width:690px){
+        .sec3 .me_txt > span {font-size: 1.3rem; line-height: 1.7; }
+        .sec3 .sec3_right .box{ width: 100%; 
+            position: absolute ; top: 130px; left: 15%; text-align: center;}
+
+    }
+
+    @media(max-width:500px){
+        .sec3 .me_txt{position: absolute; top: 10%; left: 33%;}
+        .sec3 .me_txt h2{font-size: 2rem; font-weight: 700}
+        .sec3 .me_txt h3{ font-size: 5rem; line-height: 1.1;}
+        .sec3 .me_txt p{font-size: 1rem; padding-bottom: 20px;}
+      
+        .sec4 .me_txt > span {font-size: 1.3rem; line-height: 1.7; }
+        .sec3 .sec3_right .box{ width: 100%; height: 100px; 
+        position: absolute ; top:100px; left: 15%;}
+
+    }
+
+
+
+
+
+/* sec4 */
+
+
+
+
+
+    .sec4{position: relative; height: 100%;}
+    .sec4_left {width: 30%; display: flex;}
+    .sec4 .line{width: 1px; height: 100%; background: #999; position: absolute; left:25.2%; top: 0 !important;  }
+    
+    
+    .sec4 .me_txt{position: absolute; top: 10%; left: 30%;}
+    .sec4 .me_txt h2{font-size: 4rem; font-weight: 700}
+    .sec4 .me_txt h3{ font-size: 10rem; line-height: 1.1;}
+    .sec4 .me_txt p{font-size: 4rem; padding-bottom: 50px;}
+    .sec4 .me_txt > span {font-size: 2rem; line-height: 1.9; }
+    
+    
+    .sec4 .sec4_right{width: calc(100% - 1100px); position: absolute ; top: 15%; left: 55%;}
+    .sec4 .sec4_right .box{width: 100%; position: absolute ; top: 100px; left: 0;  }
+    
+        @media(max-width:1800px){
+            .sec4 .me_txt h2{font-size: 3rem; font-weight: 700}
+    .sec4 .me_txt h3{ font-size: 8rem; line-height: 1.1;}
+    .sec4 .me_txt p{font-size: 3rem; padding-bottom: 50px;}
+    .sec4 .me_txt > span {font-size: 1.5rem; line-height: 1.7; }
+    
+           
+        }
+    
+        @media(max-width:1600px){
+            .sec4 .me_txt h2{font-size: 3rem; font-weight: 700}
+    .sec4 .me_txt h3{ font-size: 8rem; line-height: 1.1;}
+    .sec4 .me_txt p{font-size: 3rem; padding-bottom: 50px;}
+    .sec4 .sec4_right .box img { width: 130%; object-fit: cover;}
+    .sec4 .sec4_right .box{ width: 100%;;
+        position: absolute ; top: 100px; left: 10%;}
+    
+        }
+    
+        @media(max-width:1500px){
+            .sec4 .me_txt h2{font-size: 3rem; font-weight: 700}
+    .sec4 .me_txt h3{ font-size: 6rem; line-height: 1.1;}
+    .sec4 .me_txt p{font-size: 2rem; padding-bottom: 50px;}
+    .sec4 .sec4_right .box img { width: 130%; object-fit: cover;}
+    
+        }
+    
+        @media(max-width:1400px){
+            .sec4 .me_txt h2{font-size: 2rem; font-weight: 700}
+    .sec4 .me_txt h3{ font-size: 4rem; line-height: 1.1;}
+    .sec4 .me_txt p{font-size: 2rem; padding-bottom: 50px;}
+    .sec4 .me_txt > span {font-size: 1.3rem; line-height: 1.7;}
+    .sec4 .sec4_right .box{ width:50%;
+        position: absolute ; top: 120px; left: 10%;}
+    .sec4 .sec4_right .box img { width: 500px; object-fit: cover;}
+    
+        }
+    
+        @media(max-width:1300px){
+            .sec4 .me_txt{position: absolute; top: 10%; left: 32%; }
+            .sec4 .me_txt h2{font-size: 4rem; font-weight: 700}
+            .sec4 .me_txt h3{ font-size: 8rem; line-height: 1.1;}
+            .sec4 .me_txt p{font-size: 2rem; padding-bottom: 50px;}
+            .sec4 .me_txt > span {font-size: 1.5rem; line-height: 1.7; }
+            .sec4 .sec4_right .box img { width: 100%; object-fit: cover; }
+            .sec4 .sec4_right{width: 50%; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
+            .sec4 .sec4_right .box{ width: 100%; 
+                position: absolute ; top: 100px; left: 14%; text-align: center;}
+    
+        }
+    
+      
+    
+        @media(max-width:1100px){
+    
+            .sec4 .me_txt{position: absolute; top: 10%; left: 33%;}
+            .sec4 .me_txt h2{font-size: 4rem; font-weight: 700}
+            .sec4 .me_txt h3{ font-size: 8rem; line-height: 1.1;}
+            .sec4 .me_txt p{font-size: 2rem; padding-bottom: 50px;}
+            .sec4 .me_txt > span {font-size: 1.4rem; line-height: 1.7; }
+            .sec4 .sec4_right .box img { width: 100%; object-fit: cover; }
+            .sec4 .sec4_right{width: 50%; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
+            .sec4 .sec4_right .box{ width: 100%; 
+                position: absolute ; top: 100px; left: 15%; text-align: center;}
+    
+        }
+    
+        
+    
+        @media(max-width:800px){
+    
+            .sec4 .sec4_right .box{ width: 100%; 
+                position: absolute ; top: 100px; left: 15%; text-align: center;}
+    
+        }
+    
+        @media(max-width:768px){
+            .sec4 .me_txt > span {font-size: 1.3rem; line-height: 1.7; }
+            .sec4 .sec4_right .box{ width: 100%; 
+                position: absolute ; top: 100px; left: 15%; text-align: center;}
+              
+        }
+    
+        @media(max-width:690px){
+            .sec4 .me_txt > span {font-size: 1.3rem; line-height: 1.7; }
+            .sec4 .sec4_right .box{ width: 100%; 
+                position: absolute ; top: 100px; left: 15%; text-align: center;}
+    
+        }
+    
+        @media(max-width:500px){
+            .sec4 .me_txt{position: absolute; top: 10%; left: 33%;}
+            .sec4 .me_txt h2{font-size: 2rem; font-weight: 700}
+            .sec4 .me_txt h3{ font-size: 5rem; line-height: 1.1;}
+            .sec4 .me_txt p{font-size: 1rem; padding-bottom: 20px;}
+          
+            .sec4 .me_txt > span {font-size: 1.3rem; line-height: 1.7; }
+            .sec4 .sec4_right .box{ width: 100%; height: 100px; 
+            position: absolute ; top:10px; left: 15%;}
+    
+        }
+    
+    
+
+
+
+
+
+
+
+/* sce4 */
+
+
+.sec5{position: relative; height: 100%;}
+.sec5_left {width: 50%;display: flex;}
+.sec5 .line{width: 1px; height: 100%; background: #999; position: absolute; left:25.2%; top: 0 !important;  }
+
+
+
+.sec5 .me_txt{position: absolute; top: 10%; left:30%;}
+.sec5 .me_txt h2{font-size: 4rem; font-weight: 700}
+.sec5 .me_txt h3{ font-size: 10rem; line-height: 1.1;}
+.sec5 .me_txt p{font-size: 4rem; padding-bottom: 50px;}
+.sec5 .me_txt > span {font-size: 2rem; line-height: 1.9; }
+
+
+.sec5 .sec5_right{width: calc(100% - 1100px); position: absolute ; top: 15%; left: 55%;}
+.sec5 .sec5_right .box{width: 100%; background: lightcoral;
+    position: absolute ; top: 100px;  }
+
+
+
+
+
+
+    .sec5{position: relative; height: 100%;}
+    .sec5_left {width: 30%; display: flex;}
+    .sec5 .line{width: 1px; height: 100%; background: #999; position: absolute; left:25.2%; top: 0 !important;  }
+    
+    
+    .sec5 .me_txt{position: absolute; top: 10%; left: 30%;}
+    .sec5 .me_txt h2{font-size: 4rem; font-weight: 700}
+    .sec5 .me_txt h3{ font-size: 10rem; line-height: 1.1;}
+    .sec5 .me_txt p{font-size: 4rem; padding-bottom: 50px;}
+    .sec5 .me_txt > span {font-size: 2rem; line-height: 1.9; }
+    
+    
+    .sec5 .sec5_right{width: calc(100% - 1100px); position: absolute ; top: 15%; left: 55%;}
+    .sec5 .sec5_right .box{width: 100%; position: absolute ; top: 100px; left: 0;  }
+    
+        @media(max-width:1800px){
+            .sec5 .me_txt h2{font-size: 3rem; font-weight: 700}
+    .sec5 .me_txt h3{ font-size: 8rem; line-height: 1.1;}
+    .sec5 .me_txt p{font-size: 3rem; padding-bottom: 50px;}
+    .sec5 .me_txt > span {font-size: 1.5rem; line-height: 1.7; }
+    
+           
+        }
+    
+        @media(max-width:1600px){
+            .sec5 .me_txt h2{font-size: 3rem; font-weight: 700}
+    .sec5 .me_txt h3{ font-size: 8rem; line-height: 1.1;}
+    .sec5 .me_txt p{font-size: 3rem; padding-bottom: 50px;}
+    .sec5 .sec5_right .box img { width: 130%; object-fit: cover;}
+    .sec5 .sec5_right .box{ width: 100%;;
+        position: absolute ; top: 180px; left: 10%;}
+    
+        }
+    
+        @media(max-width:1500px){
+            .sec5 .me_txt h2{font-size: 3rem; font-weight: 700}
+    .sec5 .me_txt h3{ font-size: 6rem; line-height: 1.1;}
+    .sec5 .me_txt p{font-size: 2rem; padding-bottom: 50px;}
+    .sec5 .sec5_right .box img { width: 130%; object-fit: cover;}
+    
+        }
+    
+        @media(max-width:1400px){
+            .sec5 .me_txt h2{font-size: 2rem; font-weight: 700}
+    .sec5 .me_txt h3{ font-size: 4rem; line-height: 1.1;}
+    .sec5 .me_txt p{font-size: 2rem; padding-bottom: 50px;}
+    .sec5 .me_txt > span {font-size: 1.3rem; line-height: 1.7;}
+    .sec5 .sec5_right .box{ width:50%;
+        position: absolute ; top: 120px; left: 10%;}
+    .sec5 .sec5_right .box img { width: 500px; object-fit: cover;}
+    
+        }
+    
+        @media(max-width:1300px){
+            .sec5 .me_txt{position: absolute; top: 10%; left: 32%; }
+            .sec5 .me_txt h2{font-size: 4rem; font-weight: 700}
+            .sec5 .me_txt h3{ font-size: 8rem; line-height: 1.1;}
+            .sec5 .me_txt p{font-size: 2rem; padding-bottom: 50px;}
+            .sec5 .me_txt > span {font-size: 1.5rem; line-height: 1.7; }
+            .sec5 .sec5_right .box img { width: 100%; object-fit: cover; }
+            .sec5 .sec5_right{width: 50%; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
+            .sec5 .sec5_right .box{ width: 100%; 
+                position: absolute ; top: 150px; left: 14%; text-align: center;}
+    
+        }
+    
+      
+    
+        @media(max-width:1100px){
+    
+            .sec5 .me_txt{position: absolute; top: 10%; left: 33%;}
+            .sec5 .me_txt h2{font-size: 4rem; font-weight: 700}
+            .sec5 .me_txt h3{ font-size: 8rem; line-height: 1.1;}
+            .sec5 .me_txt p{font-size: 2rem; padding-bottom: 50px;}
+            .sec5 .me_txt > span {font-size: 1.4rem; line-height: 1.7; }
+            .sec5 .sec5_right .box img { width: 100%; object-fit: cover; }
+            .sec5 .sec5_right{width: 50%; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
+            .sec5 .sec5_right .box{ width: 100%; 
+                position: absolute ; top: 150px; left: 15%; text-align: center;}
+    
+        }
+    
+        
+    
+        @media(max-width:800px){
+    
+            .sec5 .sec5_right .box{ width: 100%; 
+                position: absolute ; top: 150px; left: 15%; text-align: center;}
+    
+        }
+    
+        @media(max-width:768px){
+            .sec5 .me_txt > span {font-size: 1.3rem; line-height: 1.7; }
+            .sec5 .sec5_right .box{ width: 100%; 
+                position: absolute ; top: 150px; left: 15%; text-align: center;}
+              
+        }
+    
+        @media(max-width:690px){
+            .sec5 .me_txt > span {font-size: 1.3rem; line-height: 1.7; }
+            .sec5 .sec5_right .box{ width: 100%; 
+                position: absolute ; top: 130px; left: 15%; text-align: center;}
+    
+        }
+    
+        @media(max-width:500px){
+            .sec5 .me_txt{position: absolute; top: 10%; left: 33%;}
+            .sec5 .me_txt h2{font-size: 2rem; font-weight: 700}
+            .sec5 .me_txt h3{ font-size: 5rem; line-height: 1.1;}
+            .sec5 .me_txt p{font-size: 1rem; padding-bottom: 20px;}
+          
+            .sec5 .me_txt > span {font-size: 1.3rem; line-height: 1.7; }
+            .sec5 .sec5_right .box{ width: 100%; height: 100px; 
+            position: absolute ; top:30px; left: 15%;}
+    
+        }
+    
+    
+
+
+ #fp-nav ul li a.active span { background: #0070c0; color: #000; font-weight: 700;}
+ #footer .fp-overflow {overflow-x: hidden; width: 100%;}
+   
+/* sec5 */

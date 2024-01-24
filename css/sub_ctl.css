@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+.mb {position: relative; width: 100%; height: 600px; margin-top: 100px; background: url('../images/sub/ceo_1.jpg') no-repeat center; background-size: cover;}
+.mb p {position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); color: #fff; font-size: 5rem; text-align: center;}
+
+/* ctl_intro */
+.ctl {text-align: center; padding-top: 100px;}
+.ctl .cp {height: 100vh;}
+.ctl h2 {font-size: 5rem;}
+.ctl h3 {font-size: 2.4rem; padding-bottom: 100px;}
+.ctl img {width: 80%; text-align: center;}
+.ctl .ctl_txt {font-size: 2rem; letter-spacing: -1px; padding-top: 50px;}
+.ctl .ctl_txt span {color: #0070c0; font-weight: 700;}
+.ctl .ctl_txt .exp {padding: 20px 0 30px 0; font-size: 1.6rem; color: #777;}
+.ctl .ctl_txt .exp .first {display: none;}
+.ctl .ctl_txt .more {display: inline-block; border: 1px solid #000; padding: 10px 30px; cursor: pointer; background: url('../images/sub/icon_arrow.png') no-repeat right center; transition: all 0.5s;}
+.ctl .ctl_txt .more:hover {background: #0070c0 url('../images/sub/icon_arrow.png') no-repeat right 15px center; color: #fff; padding: 10px 45px;}
+
+.popup_spec {position: fixed; top: 0; left: 0; width: 100%; height: 100vh; background: rgba(0, 0, 0, 0.5); z-index: 300;}
+.popup_spec .spec_img {width: 60%; padding-top: calc((100vh - 510px) / 2);}
+.popup_spec .close {margin: 0 auto; width: 60px; padding-top: 20px; cursor: pointer;}
+
+@media (max-width: 1200px) {
+    .ctl_process h2,.ctl_type h2 {padding: 30px 0;}
+    .ctl .ctl_txt {font-size: 1.8rem;}
+    .ctl .ctl_txt .exp {font-size: 1.4rem;}
+    .popup_spec .spec_img {width: 80%;}
+}
+
+@media (max-width: 768px) {
+    .mb {height: 400px;}
+    .ctl {padding-top: 50px;}
+    .ctl h2 {font-size: 3rem;}
+    .ctl h3 {font-size: 1.8rem; padding-bottom: 50px;}
+    .ctl .ctl_txt {font-size: 1.4rem; padding-top: 30px;}
+    .ctl .ctl_txt .exp {font-size: 1.2rem;}
+    .ctl .ctl_txt .exp .first {display: block;}
+    .popup_spec .spec_img {width: 100%;}
+}
+
+/* ctl_process */
+.ctl_process h2,.ctl_type h2 {text-align: center; font-size: 4rem; padding: 100px 0;}
+.ctl_process .cp {text-align: center; width: 60%; padding-bottom: 50px;}
+.ctl_process .cp ul li {width: calc((100% - 50px) / 2)}
+.ctl_process .cp ul li img {width: 100%;}
+.ctl_process .cp ul li > div {position: relative; background: #e5e5e5; width: 100%; height: 80px; margin: 0 auto;}
+.ctl_process .cp ul li > div p {position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); font-size: 2rem; letter-spacing: -1px; width: 100%;}
+
+.ctl_process .cp ul li .shearing {display: none;}
+.cp .swiper-scrollbar {bottom: 20px; z-index: 100;}
+.swiper-scrollbar-drag {background: #0070c0;}
+
+@media (max-width: 1500px) {
+    .ctl_process h2,.ctl_type h2 {padding: 70px 0;}
+    .ctl_process .cp ul li > div p {font-size: 1.8rem;}
+}
+
+@media (max-width: 1200px) {
+    .ctl_process .cp ul li .shearing {display: block;}
+    .ctl_process .cp ul li > div p {font-size: 1.4rem;}
+}
+
+@media (max-width: 768px) {
+    .ctl_process .cp {width: 80%;}
+    .ctl_process h2,.ctl_type h2 {padding: 50px 0; font-size: 3rem;}
+    .ctl_process .cp {width: 60%;}
+}
+
+/* ctl_type */
+.ctl_type {margin-bottom: 150px;}
+.ctl_type ul {display: flex; gap: 50px; width: 60%; margin: 0 auto; background: #f3f3f3; padding: 50px; border-radius: 40px;}
+.ctl_type ul li {width: calc((100% - 50px) / 2);}
+.ctl_type ul li > div {overflow: hidden;}
+.ctl_type ul li img {transition: all 0.5s;}
+.ctl_type ul li:hover img {transform: scale(1.2);}
+.ctl_type ul li dl {letter-spacing: -1px; text-align: center;}
+.ctl_type ul li dl dt {font-size: 2.4rem; padding-top: 20px}
+.ctl_type ul li dl dd {font-size: 1.6rem; padding-top: 10px;}
+.ctl_type ul li img {width: 100%;}
+
+@media (max-width: 1650px) {
+    .ctl_type ul li dl dt {font-size: 2.2rem; padding-top: 20px}
+    .ctl_type ul li dl dd {font-size: 1.4rem; padding-top: 10px;}
+}
+
+@media (max-width: 1500px) {
+    .ctl_type ul {width: 70%;}
+}
+
+@media (max-width: 1200px) {
+    .ctl_type ul {width: 90%;}
+}
+
+@media (max-width: 980px) {
+    .ctl_type ul {flex-direction: column; align-items: center; padding: 50px 0;}
+    .ctl_type ul li {width: 80%;}
+}
+
+@media (max-width: 500px) {
+    .ctl_type {margin-bottom: 70px;}
+    .ctl_type ul {padding: 30px 0;}
+}
+
