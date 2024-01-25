@@ -71,7 +71,7 @@
 .sec2 .me_txt{position: absolute; top: 10%; left: 30%;  }
 .sec2 .me_txt h2{font-size: 4rem; font-weight: 700}
 .sec2 .me_txt h3{ font-size: 10rem; line-height: 1.1;}
-.sec2 .me_txt p{font-size: 4rem; padding-bottom: 50px;}
+.sec2 .me_txt p{font-size: 3rem; padding-bottom: 50px; color: #0070c0; }
 .sec2 .me_txt > span {font-size: 1.9rem; line-height: 1.7; }
 
 
@@ -172,14 +172,15 @@
     }
 
     @media(max-width:500px){
-        .sec2 .me_txt{position: absolute; top: 10%; left: 33%;}
-        .sec2 .me_txt h2{font-size: 2rem; font-weight: 700}
-        .sec2 .me_txt h3{ font-size: 5rem; line-height: 1.1;}
-        .sec2 .me_txt p{font-size: 1rem; padding-bottom: 20px;}
+        
+        .sec2 .me_txt{position: absolute; top: 10%; left: 33%; }
+        .sec2 .me_txt h2{font-size: 2rem; font-weight: 700;padding-top: 50px ;}
+        .sec2 .me_txt h3{ font-size: 4rem; line-height: 1.1;}
+        .sec2 .me_txt p{font-size: 1rem; padding-bottom: 20px; font-weight: 700;}
       
         .sec2 .me_txt > span {font-size: 1.3rem; line-height: 1.7; }
         .sec2 .sec2_right .box{ width: 100%; height: 100px; 
-        position: absolute ; top:150px; left: 15%;}
+        position: absolute ; top:190px; left: 15%;}
 
     }
 
@@ -201,7 +202,7 @@
 .sec3 .me_txt{position: absolute; top: 10%; left: 30%;}
 .sec3 .me_txt h2{font-size: 4rem; font-weight: 700}
 .sec3 .me_txt h3{ font-size: 10rem; line-height: 1.1;}
-.sec3 .me_txt p{font-size: 4rem; padding-bottom: 50px;}
+.sec3 .me_txt p{font-size: 3rem; padding-bottom: 50px;color: #0070c0; }
 .sec3 .me_txt > span {font-size: 2rem; line-height: 1.9; }
 
 
@@ -300,9 +301,9 @@
 
     @media(max-width:500px){
         .sec3 .me_txt{position: absolute; top: 10%; left: 33%;}
-        .sec3 .me_txt h2{font-size: 2rem; font-weight: 700}
-        .sec3 .me_txt h3{ font-size: 5rem; line-height: 1.1;}
-        .sec3 .me_txt p{font-size: 1rem; padding-bottom: 20px;}
+        .sec3 .me_txt h2{font-size: 2rem; font-weight: 700; padding-top:50px ;}
+        .sec3 .me_txt h3{ font-size: 4rem; line-height: 1.1;}
+        .sec3 .me_txt p{font-size: 1rem; padding-bottom: 20px; font-weight: 700;}
       
         .sec4 .me_txt > span {font-size: 1.3rem; line-height: 1.7; }
         .sec3 .sec3_right .box{ width: 100%; height: 100px; 
@@ -328,7 +329,7 @@
     .sec4 .me_txt{position: absolute; top: 10%; left: 30%;}
     .sec4 .me_txt h2{font-size: 4rem; font-weight: 700}
     .sec4 .me_txt h3{ font-size: 10rem; line-height: 1.1;}
-    .sec4 .me_txt p{font-size: 4rem; padding-bottom: 50px;}
+    .sec4 .me_txt p{font-size: 3rem; padding-bottom: 50px;color: #0070c0; }
     .sec4 .me_txt > span {font-size: 2rem; line-height: 1.9; }
     
     
@@ -422,14 +423,14 @@
             .sec4 .me_txt > span {font-size: 1.3rem; line-height: 1.7; }
             .sec4 .sec4_right .box{ width: 100%; 
                 position: absolute ; top: 100px; left: 15%; text-align: center;}
-    
+     
         }
     
         @media(max-width:500px){
             .sec4 .me_txt{position: absolute; top: 10%; left: 33%;}
-            .sec4 .me_txt h2{font-size: 2rem; font-weight: 700}
-            .sec4 .me_txt h3{ font-size: 5rem; line-height: 1.1;}
-            .sec4 .me_txt p{font-size: 1rem; padding-bottom: 20px;}
+            .sec4 .me_txt h2{font-size: 2rem; font-weight: 700; padding-top: 50px;}
+            .sec4 .me_txt h3{ font-size: 4rem; line-height: 1.1;}
+            .sec4 .me_txt p{font-size: 1rem; padding-bottom: 20px;font-weight: 700;}
           
             .sec4 .me_txt > span {font-size: 1.3rem; line-height: 1.7; }
             .sec4 .sec4_right .box{ width: 100%; height: 100px; 
@@ -457,7 +458,7 @@
 .sec5 .me_txt{position: absolute; top: 10%; left:30%;}
 .sec5 .me_txt h2{font-size: 4rem; font-weight: 700}
 .sec5 .me_txt h3{ font-size: 10rem; line-height: 1.1;}
-.sec5 .me_txt p{font-size: 4rem; padding-bottom: 50px;}
+.sec5 .me_txt p{font-size: 3rem; padding-bottom: 50px;color: #0070c0; }
 .sec5 .me_txt > span {font-size: 2rem; line-height: 1.9; }
 
 
@@ -577,13 +578,13 @@
     
         @media(max-width:500px){
             .sec5 .me_txt{position: absolute; top: 10%; left: 33%;}
-            .sec5 .me_txt h2{font-size: 2rem; font-weight: 700}
-            .sec5 .me_txt h3{ font-size: 5rem; line-height: 1.1;}
-            .sec5 .me_txt p{font-size: 1rem; padding-bottom: 20px;}
+            .sec5 .me_txt h2{font-size: 2rem; font-weight: 700; padding-top: 50px;}
+            .sec5 .me_txt h3{ font-size: 4rem; line-height: 1.1;}
+            .sec5 .me_txt p{font-size: 1rem; padding-bottom: 20px; font-weight: 700;}
           
             .sec5 .me_txt > span {font-size: 1.3rem; line-height: 1.7; }
             .sec5 .sec5_right .box{ width: 100%; height: 100px; 
-            position: absolute ; top:30px; left: 15%;}
+            position: absolute ; top:50px; left: 15%;}
     
         }
     
